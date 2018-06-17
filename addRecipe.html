@@ -1,0 +1,70 @@
+<!DOCTYPE HTML>
+
+
+<html>
+	<head>
+	<meta charset="UTF-8">
+    <meta name='description' content=' php project'>
+    <meta name='keywords' content='george brown,collage'>
+    <meta name='group members' content='negin/ danial/ arzu'>
+    <meta name="viewport" content="width = device-width, initial-scale = 1">
+    <title>add recipes</title>
+		
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-loading">
+
+			<div id="wrapper">
+
+					<section id="main">
+						<header >
+							
+							<h1>Add Recipes</h1>
+							<form action="">
+                                
+								<label for="Image">select Image</label>
+								<input type="text" id="ImageURL" spellcheck="false" />
+								<br>
+								<input type="submit" value="browse">
+								<hr>
+								
+								<label for="name">name of the Recipes</label>
+								<input type="text" id="nameOF Recipes" spellcheck="false" />
+								
+								<label for="ingradient">add ingradient</label>
+								<textarea name='ingradient' id='ingradient'></textarea>
+								
+								<label for="description">add description</label>
+								<textarea name='description' id='description'></textarea>
+								<br>
+                                <input type="submit" value="share">
+							</form>
+							
+						</header>
+						
+						
+						<footer>
+							
+							
+						</footer>
+					</section>
+
+				
+					<footer id="footer">
+						<ul class="copyright">
+							<li>&copy; </li>
+						</ul>
+					</footer>
+
+			</div>
+
+			<script>
+				if ('addEventListener' in window) {
+					window.addEventListener('load', function() { document.body.className = document.body.className.replace(/\bis-loading\b/, ''); });
+					document.body.className += (navigator.userAgent.match(/(MSIE|rv:11\.0)/) ? ' is-ie' : '');
+				}
+			</script>
+
+	</body>
+</html>
